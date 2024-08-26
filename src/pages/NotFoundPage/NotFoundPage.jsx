@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import movieDefault from '../../img/movie.svg';
+import movieDefault from '../../img/avatar-default.svg';
 
 const NotFoundPage = () => {
   return (
