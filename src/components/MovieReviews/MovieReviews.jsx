@@ -18,7 +18,7 @@ const MovieReviews = () => {
         setIsLoading(true);
         const data = await reviewsMovies(movieId);
         setReviews(data.results);
-        console.log(data.results);
+        //console.log(data.results);
       } catch (error) {
         setIsError(true);
         console.log(error);
