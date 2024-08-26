@@ -30,7 +30,7 @@ const HomePage = () => {
   return (
     <>
       {isError && <ErrorMessage />}
-      <h2 >Trending week</h2>
+      <h2 >Trends</h2>
       {isLoading && <Loader />}
       <MovieList movies={movies} />
     </>
